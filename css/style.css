@@ -48,6 +48,49 @@ footer {
     padding-top:20px;
 }
 
+header > .inner, #main > .inner, footer .inner {
+    width: 990px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+ul.level_2 {
+    display: none;
+}
+
+ul.level_2 li:hover {
+    background-color:#337ab7;
+}
+
+ul.level_2 li:hover a {
+    color:#fff;
+}
+
+ul.level_1 > li {
+    display: inline-block;
+    padding-right:25px;
+    position: relative;
+}
+
+ul.level_1 > li:hover ul.level_2 {
+    display: block;
+    position: absolute;
+    left:0;
+    bottom:auto;
+    background-color:#fff;
+}
+
+
 
 
 
